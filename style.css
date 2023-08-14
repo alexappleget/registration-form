@@ -11,7 +11,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: rgb(130, 106, 251);
+    background:linear-gradient(0deg, #eeba358a, #eeba348a), url('https://cdn.trendhunterstatic.com/thumbs/380/cool-backgrounds.jpeg?auto=webp');
+    background-size: cover;
 }
 
 .container {
@@ -90,7 +91,7 @@ body {
 }
 
 .gender input {
-    accent-color: rgb(130, 106, 251);
+    accent-color: #eeba35;
 }
 
 .form :where(.gender input, .gender label) {
@@ -125,11 +126,11 @@ body {
     border-radius: 6px;
     font-weight: 400;
     transition: all 0.2s ease;
-    background-color: rgb(130, 106, 251);
+    background-color: #eeba35;
 }
 
 .form button:hover {
-    background-color: rgb(88, 56, 250);
+    background-color: #ffd25f;
 }
 
 /* Responsive */
